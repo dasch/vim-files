@@ -91,9 +91,9 @@ if len(borders) == 0 || borders[max(keys(borders))] =~ '^\%(openbrace\|semicolon
 
 	for m in s:values
 		if m =~? '^'.entered_property
-			call add(res, m . ':')
+			call add(res, m . ': ')
 		elseif m =~? entered_property
-			call add(res2, m . ':')
+			call add(res2, m . ': ')
 		endif
 	endfor
 
@@ -333,9 +333,9 @@ elseif borders[max(keys(borders))] == 'colon'
 
 	for m in values
 		if m =~? '^'.entered_value
-			call add(res, m)
+			call add(res, m . ';')
 		elseif m =~? entered_value
-			call add(res2, m)
+			call add(res2, m . ';')
 		endif
 	endfor
 

@@ -251,7 +251,7 @@ let g:xmldata_xhtml10s = {
 \ ],
 \ 'style': [
 \ [''],
-\ { 'media': [], 'id': [], 'lang': [], 'xml:space': ['preserve'], 'title': [], 'type': ['text/css'], 'dir': ['ltr', 'rtl'], 'xml:lang': []}
+\ { 'media': ['all', 'aural', 'braille', 'embossed', 'handheld', 'print', 'projection', 'screen', 'tty', 'tv'], 'id': [], 'lang': [], 'xml:space': ['preserve'], 'title': [], 'type': ['text/css'], 'dir': ['ltr', 'rtl'], 'xml:lang': []}
 \ ],
 \ 'sub': [
 \ ['a', 'br', 'span', 'bdo', 'map', 'object', 'img', 'tt', 'i', 'b', 'big', 'small', 'em', 'strong', 'dfn', 'code', 'q', 'samp', 'kbd', 'var', 'cite', 'abbr', 'acronym', 'sub', 'sup', 'input', 'select', 'textarea', 'label', 'button', 'ins', 'del', 'script'],

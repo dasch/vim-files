@@ -353,10 +353,10 @@ hi def link stMethodDelims     Statement
 hi def link stNil              Keyword
 hi def link stRadixInteger     Number
 hi def link stScaledDecimal    Float
-hi def link stSelector         Constant
+hi def link stSelector         Special
 hi def link stSpecialChar      SpecialChar
 hi def link stString           String
-hi def link stSymbol           Constant
+hi def link stSymbol           Special
 hi def link stTempDelims       Delimiter
 hi def link stTodo             Todo
 

@@ -102,7 +102,7 @@ syn keyword cssFontAttr contained large smaller larger
 syn keyword cssFontAttr contained narrower wider
 
 syn keyword cssColorProp contained color
-syn match cssColorProp contained "\<background\(-\(color\|image\|attachment\|position\)\)\="
+syn match cssColorProp contained "\<background\(-\(color\|image\|attachment\|position\|repeat\)\)\="
 syn keyword cssColorAttr contained center scroll fixed
 syn match cssColorAttr contained "\<repeat\(-[xy]\)\=\>"
 syn match cssColorAttr contained "\<no-repeat\>"

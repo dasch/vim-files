@@ -9,3 +9,5 @@ set foldnestmax=5
 
 " insert `end' on shift-enter
 imap <S-CR>    <CR><CR>end<Esc>-cc
+
+" source ~/.vim/ruby-macros.vim

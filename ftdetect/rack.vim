@@ -1,0 +1,1 @@
+/home/daniel/Projects/vim-rack/ftdetect/rack.vim

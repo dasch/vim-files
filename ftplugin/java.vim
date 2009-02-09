@@ -27,3 +27,8 @@ function! MyFoldLevel( lineNumber )
 endfunction
 setlocal foldexpr=MyFoldLevel(v:lnum)
 setlocal foldmethod=expr
+
+set efm=%A\ %#[javac]\ %f:%l:\ %m,%-Z\ %#[javac]\ %p^,%-C%.%#
+set include=^#\s*import
+set includeexpr=substitute(v:fname,'\\.','/','g')
+

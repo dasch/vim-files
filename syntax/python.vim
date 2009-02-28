@@ -98,7 +98,8 @@ syn keyword pythonException	try except finally
 syn keyword pythonOperator	and in is not or
 
 " Decorators (new in Python 2.4)
-syn match   pythonDecorator	"@" display nextgroup=pythonFunction skipwhite
+"syn match   pythonDecorator	"@" display nextgroup=pythonFunction skipwhite
+syn match   pythonDecorator	"@[a-zA-Z_][.a-zA-Z0-9_]*" display
 
 " Comments
 syn match   pythonComment	"#.*$" display contains=pythonTodo,@Spell
